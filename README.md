@@ -1,4 +1,5 @@
 LIS4368: Advanced Web Applications Development
+
 Celina Phal
 
 ### Class Number Requirements:
