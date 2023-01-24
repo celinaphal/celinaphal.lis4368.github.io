@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="My online portfolio that illustrates skills acquired while working through various project requirements.">
-	<meta name="author" content="Mark K. Jowett, Ph.D.">
-	<link rel="icon" href="favicon.ico">
+	<meta name="author" content="Celina Phal">
+	<link rel="icon" href="favicon-16x16.png">
 
 	<title>My Online Portfolio</title>
 
@@ -17,7 +23,7 @@
 h2
 {
 	margin: 0;     
-	color: #666;
+	color: rgb(229, 190, 204);
 	padding-top: 50px;
 	font-size: 52px;
 	font-family: "trebuchet ms", sans-serif;    
@@ -72,7 +78,7 @@ h2
 				 <div class="active item" style="background: url(img/robot.jpg) no-repeat left center; background-size: cover;">
 					 <div class="container">
 						 <div class="carousel-caption">
-								<h3>First slide label.</h3>
+								<h3>LinkedIn.</h3>
 							 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
 							 <a class="btn btn-large btn-primary" href="#">Learn more</a>
 						 </div>
@@ -80,9 +86,9 @@ h2
 				 </div>					
 
          <div class="item" style="background: url(img/code4.jpg) no-repeat left center; background-size: cover;">
-                <h2>Slide 2</h2>
+                <h2>Bitbucket</h2>
                 <div class="carousel-caption">
-                  <h3>Second slide label</h3>
+                  <h3>Test</h3>
                   <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
 						 <!--  <img src="img/slide2.png" alt="Slide 2">									 -->						
                 </div>
