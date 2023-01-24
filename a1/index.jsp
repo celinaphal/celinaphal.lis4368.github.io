@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="My online portfolio that illustrates skills acquired while working through various project requirements.">
 	<meta name="author" content="Celina Phal">
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="favicon-16x16.png">
 
 	<%@ include file="/css/include_css.jsp" %>		
 	
@@ -34,7 +34,7 @@
 						<%@ include file="global/header.jsp" %>
 					</div>
 
-					<h4>JDK Installation:</h4>
+					<h4>JDK Installan:</h4>
 					<img src="img/jdk_install.png" class="img-responsive center-block" alt="JDK Installation" />
 
 					<br /> <br />
