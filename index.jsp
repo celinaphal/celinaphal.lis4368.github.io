@@ -23,8 +23,8 @@
 h2
 {
 	margin: 0;     
-	color: rgb(229, 190, 204);
-	padding-top: 50px;
+	color: rgb(242, 250, 255);
+	padding-top: 90px;
 	font-size: 52px;
 	font-family: "trebuchet ms", sans-serif;    
 }
@@ -75,30 +75,31 @@ h2
        <!-- Carousel items -->
         <div class="carousel-inner">
 
-				 <div class="active item" style="background: url(img/robot.jpg) no-repeat left center; background-size: cover;">
+				 <div class="active item" style="background: url(img/fsu.jpg) no-repeat left center; background-size: cover;">
 					 <div class="container">
 						 <div class="carousel-caption">
-								<h3>LinkedIn.</h3>
-							 <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
+								<h2>Celina Phal</h2>
+							 <p class="lead">Information, Communication, and Technology student at Florida State University</p>
 							 <a class="btn btn-large btn-primary" href="#">Learn more</a>
 						 </div>
 					 </div>
 				 </div>					
 
-         <div class="item" style="background: url(img/code4.jpg) no-repeat left center; background-size: cover;">
+         <div class="item" style="background: url(img/bitbucket.jpg) no-repeat left center; background-size: cover;">
                 <h2>Bitbucket</h2>
                 <div class="carousel-caption">
-                  <h3>Test</h3>
-                  <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                  <h3></h3>
+				  <a href="https://bitbucket.org/cdp21d/">Link</a>
+                  <p></p>
 						 <!--  <img src="img/slide2.png" alt="Slide 2">									 -->						
                 </div>
             </div>
 
-         <div class="item" style="background: url(img/keyboard.jpg) no-repeat left center; background-size: cover;">
-                <h2>Slide 3</h2>
+         <div class="item" style="background: url(img/linkedin.jpg) no-repeat left center; background-size: cover;">
+                <h2>LinkedIn</h2>
                 <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				  <a href="https://www.linkedin.com/in/celina-phal-14bb59225/">Link</a>
+                  <p></p>
 						<!--  <img src="img/slide3.png" class="img-responsive" alt="Slide 3">							 -->								
                 </div>
             </div>
