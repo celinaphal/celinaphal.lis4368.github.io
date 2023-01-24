@@ -41,9 +41,9 @@ LIS4368: Advanced Web App Development
 
 ![JDK Installation Screenshot](img/tomcat.png)
 
-*Screenshot of Android Studio - My First App*:
+*Screenshot of a1/index.jsp*:
 
-![Android Studio Installation Screenshot](img/android.png)
+![Android Studio Installation Screenshot](img/assignment1.png)
 
 
 #### Tutorial Links:
