@@ -4,9 +4,9 @@ LIS4368: Advanced Web App Development
 
 ### Assignment 2 Requirements:
 
-1. Distributed Version Control with Git and Bitbucket
+1. Install MySql Workbench.
 2. Java/JSP/Servlet Development Installation
-3. Chapter Questions (Chs 1-4)
+3. Complete skillsets 1-3.
 
 #### README.md file should include the following items:
 
@@ -15,7 +15,7 @@ LIS4368: Advanced Web App Development
 
 #### Assessment Links and Screenshots:
 
-*Screenshot of http://localhost:9999/hello *
+*Screenshot of running [http://localhost:9999/hello](http://localhost:9999/hello)*:
     ![img](img/img1.png)
 
 2. http://localhost:9999/hello/HelloHome.html
