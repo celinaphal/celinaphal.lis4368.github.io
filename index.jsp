@@ -88,8 +88,7 @@ h2
          <div class="item" style="background: url(img/bitbucket.jpg) no-repeat left center; background-size: cover;">
                 <h2>Bitbucket</h2>
                 <div class="carousel-caption">
-                  <h3></h3>
-				  <a href="https://bitbucket.org/cdp21d/">Link</a>
+				  <h3 href="https://bitbucket.org/cdp21d/">Link</h3>
                   <p></p>
 						 <!--  <img src="img/slide2.png" alt="Slide 2">									 -->						
                 </div>

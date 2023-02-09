@@ -4,7 +4,7 @@
 <!--
 "Time-stamp: <Sat, 01-02-21, 19:38:14 Eastern Standard Time>"
 //-->
-	<title>LIS4368 - Assignment1</title>
+	<title>LIS4368 - Assignment2</title>
 	
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -32,11 +32,11 @@
 					</div>
 
 					<b>Servlet Compilation and Usage:</b><br />
-					<img src="img/using_servlets.png" class="img-responsive center-block" alt="Using Servlets" />
+					<img src="img/img2.png" class="img-responsive center-block" alt="Using Servlets" />
 
 					<br /> <br />
 					<b>Database Connectivity Using Servlets:</b><br />
-					<img src="img/database_connectivity1.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
+					<img src="img/img4.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
 				<br />
 					<img src="img/database_connectivity2.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
 
