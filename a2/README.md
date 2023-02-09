@@ -18,7 +18,7 @@ LIS4368: Advanced Web App Development
 *Screenshot of running [http://localhost:9999/hello](http://localhost:9999/hello)*:
     ![img](img/img1.png)
 
-*Screenshot of running [http://localhost:9999/hello/HelloHome.html](http://localhost:9999/hello/HelloHome.html)*:
+*Screenshot of running [http://localhost:9999/hello/index.html](http://localhost:9999/hello/index.html)*:
     ![img](img/img2.png)
 
 *Screenshot of running [http://localhost:9999/hello/sayhello](http://localhost:9999/hello/sayhello)*:
