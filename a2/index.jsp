@@ -38,7 +38,7 @@
 					<b>Database Connectivity Using Servlets:</b><br />
 					<img src="img/img4.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
 				<br />
-					<img src="img/database_connectivity2.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
+					<img src="img/img5.png" class="img-responsive center-block" alt="Database Connectivity Using Servlets" />
 
 	<%@ include file="/global/footer.jsp" %>
 

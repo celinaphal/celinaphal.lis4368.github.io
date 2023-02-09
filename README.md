@@ -16,6 +16,9 @@ Celina Phal
     - Provide git command descriptions
 
 2. [A2 README.md](a2/README.md "My A2 README.md file")
+    - Install MySql Workbench.
+    - Connect databases to servlets.
+    - Complete skillsets 1-3.
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
 

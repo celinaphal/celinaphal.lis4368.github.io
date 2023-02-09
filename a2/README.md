@@ -5,7 +5,7 @@ LIS4368: Advanced Web App Development
 ### Assignment 2 Requirements:
 
 1. Install MySql Workbench.
-2. Java/JSP/Servlet Development Installation
+2. Connect databases to servlets.
 3. Complete skillsets 1-3.
 
 #### README.md file should include the following items:
@@ -30,14 +30,16 @@ LIS4368: Advanced Web App Development
 
 #### Query Results:
 
-![Java Installation Screenshot](img/jdk_install.png)
+![results](img/img5.png)
 
 #### a2/index
 
 ![a2](img/index1.png)
 
+![a2](img/index2.png)
+
 ### Skillsets
 
 | *Screenshot of Skillset 1*      | *Screenshot of Skillset 2*: | *Screenshot of Skillset 3*:     |
 | :----:       |    :----:   |          :----: |
-| ![Skillset1](img/q1)   | ![Skillset2](img/Q2_Looping_Structures.png) | ![Skillset3](img/Q3.png) |
+| ![Skillset1](img/Q1.png)   | ![Skillset2](img/Q2_Looping_Structures.png) | ![Skillset3](img/Q3.png) |
