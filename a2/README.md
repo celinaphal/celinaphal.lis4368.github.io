@@ -18,27 +18,26 @@ LIS4368: Advanced Web App Development
 *Screenshot of running [http://localhost:9999/hello](http://localhost:9999/hello)*:
     ![img](img/img1.png)
 
-2. http://localhost:9999/hello/HelloHome.html
-3. http://localhost:9999/hello/sayhello
-4. http://localhost:9999/hello/querybook.html
+*Screenshot of running [http://localhost:9999/hello/HelloHome.html](http://localhost:9999/hello/HelloHome.html)*:
+    ![img](img/img2.png)
+
+*Screenshot of running [http://localhost:9999/hello/sayhello](http://localhost:9999/hello/sayhello)*:
+    ![img](img/img3.png)
+
+*Screenshot of running [http://localhost:9999/hello/querybook.html](http://localhost:9999/hello/querybook.html)*:
+    ![img](img/img4.png)
 
 
-#### Assignment Screenshots:
-
-*Screenshot of running java Hello*:
+#### Query Results:
 
 ![Java Installation Screenshot](img/jdk_install.png)
 
-*Screenshot of running http://localhost:9999*:
+#### a2/index
 
-![JDK Installation Screenshot](img/tomcat.png)
+![a2](img/index1.png)
 
-*Screenshot of a1/index.jsp*:
+### Skillsets
 
-![Android Studio Installation Screenshot](img/assignment1.png)
-
-
-#### Tutorial Links:
-
-*Bitbucket Tutorial - Station Locations:*
-[A1 Bitbucket Station Locations Tutorial Link](https://bitbucket.org/cdp21d/bitbucketstationlocations/src/master/ "Bitbucket Station Locations")
+| *Screenshot of Skillset 1*      | *Screenshot of Skillset 2*: | *Screenshot of Skillset 3*:     |
+| :----:       |    :----:   |          :----: |
+| ![Skillset1](img/q1)   | ![Skillset2](img/Q2_Looping_Structures.png) | ![Skillset3](img/Q3.png) |
