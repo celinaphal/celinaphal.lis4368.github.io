@@ -46,12 +46,12 @@
 					<b>Petstore Table:</b><br />
 					<img src="img/img3.png" class="img-responsive center-block" alt="A3 Pet" />
 
-					
+
 					<br /> <br />
 					<b>MySQL Workbench and SQL Files:</b><br />
 					<a href="docs/a3.mwb">Petstore MySQL Workbench File</a>
 				<br />
-					<a href="docs/a3.sql">Petstore SQL File</a>				
+					<a href="docs/A3.sql">Petstore SQL File</a>				
 
 	<%@ include file="/global/footer.jsp" %>
 
