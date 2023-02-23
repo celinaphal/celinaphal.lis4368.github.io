@@ -21,6 +21,9 @@ Celina Phal
     - Complete skillsets 1-3.
 
 3. [A3 README.md](a3/README.md "My A3 README.md file")
+    - Create MySQL Database based on given instructions.
+    - Provide screenshots of completed ERD.
+    - Screenshots of skillsets 4-6.
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
 

@@ -21,7 +21,8 @@ Customer Table:
 Petstore Table:
 ![SS2](img/img3.png)
 
-Links:
+### Links:
+
 [a3.mwb](docs/a3.mwb "a3.mwb")
 
 [a3.sql](docs/A3.sql "a3.sql")
