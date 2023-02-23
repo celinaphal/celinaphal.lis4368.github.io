@@ -32,7 +32,7 @@
 					</div>
 
 					<b>Petstore Database (Entity Relationship Diagram):</b><br />
-					<img src="img/a3.png" class="img-responsive center-block" alt="A3 ERD" />
+					<img src="img/erd.png" class="img-responsive center-block" alt="A3 ERD" />
 
 					<br /> <br />
 					<b>MySQL Workbench and SQL Files:</b><br />

@@ -9,23 +9,25 @@
 2. Provide screenshots of completed ERD.
 3. Screenshots of skillsets 4-6.
 
-#### Screenshot of ERD:
-![ERD](img/erd.png)
+#### Assignment Screenshot and Links: 
+ 
+*Screenshot A3 ERD*: 
+ 
+![A3 ERD](img/erd.png "ERD based upon A3 Requirements") 
+ 
+*A3 docs: a3.mwb and a3.sql*: 
+ 
+[A3 MWB File](docs/a3.mwb "A3 ERD in .mwb format") 
+ 
+[A3 SQL File](docs/a3.sql "A3 SQL Script") 
+  
 
-
-#### Screenshot of 10 Records from each table:
 Pet Table:
 ![SS1](img/img1.png)
 Customer Table:
 ![SS3](img/img2.png)
 Petstore Table:
 ![SS2](img/img3.png)
-
-### Links:
-
-[a3.mwb](docs/a3.mwb "a3.mwb")
-
-[a3.sql](docs/A3.sql "a3.sql")
 
 
 | *Screenshot of Skillset 4*      | *Screenshot of Skillset 5*: | *Screenshot of Skillset 6*:     |
