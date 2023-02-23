@@ -12,7 +12,7 @@
 				<a class="navbar-brand" href="index.jsp" target="_self">Home</a>
 			</div>
 
-			<div id="navbar" class="collapse navbar-collapse">
+			<div id="navbar" class="navbar bg-red collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li><a href="index.jsp">LIS4368</a></li>
 					<li><a href="a1/index.jsp">A1</a></li>
