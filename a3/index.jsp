@@ -34,6 +34,19 @@
 					<b>Petstore Database (Entity Relationship Diagram):</b><br />
 					<img src="img/erd.png" class="img-responsive center-block" alt="A3 ERD" />
 
+
+					<b>Pet Table:</b><br />
+					<img src="img/img1.png" class="img-responsive center-block" alt="A3 Pet" />
+
+
+					<b>Customer Table:</b><br />
+					<img src="img/img2.png" class="img-responsive center-block" alt="A3 Pet" />
+
+
+					<b>Petstore Table:</b><br />
+					<img src="img/img3.png" class="img-responsive center-block" alt="A3 Pet" />
+
+					
 					<br /> <br />
 					<b>MySQL Workbench and SQL Files:</b><br />
 					<a href="docs/a3.mwb">Petstore MySQL Workbench File</a>

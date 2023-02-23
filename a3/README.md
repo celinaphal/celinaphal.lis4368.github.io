@@ -23,13 +23,16 @@
   
 
 Pet Table:
+
 ![SS1](img/img1.png)
+
 Customer Table:
 ![SS3](img/img2.png)
+
 Petstore Table:
 ![SS2](img/img3.png)
 
 
 | *Screenshot of Skillset 4*      | *Screenshot of Skillset 5*: | *Screenshot of Skillset 6*:     |
 | :----:       |    :----:   |          :----: |
-| ![Skillset4](img/Q4.png)   | ![Skillset5](img/Q5.png) | ![Skillset6](img/Q6.png) |
+| ![Skillset4](img/Q4.png)   | ![Skillset5](img/q5.png) | ![Skillset6](img/Q6.png) |
