@@ -17,7 +17,32 @@ public static void getRequirements()
 
     System.out.println();
 
-    System.out.println("Please enter character: A");
+    System.out.println("Please enter character: a");
     System.out.println("A is vowel. ASCII value: 97");
+
+    System.out.println();
+
+    System.out.println("Please enter character: A");
+    System.out.println("A is vowel. ASCII value: 65");
+
+    System.out.println();
+    
+    System.out.println("Please enter character: b");
+    System.out.println("A is vowel. ASCII value: 98");
+
+    System.out.println();
+    
+    System.out.println("Please enter character: B");
+    System.out.println("A is vowel. ASCII value: 66");
+
+    System.out.println();
+    
+    System.out.println("Please enter character: &");
+    System.out.println("A is vowel. ASCII value: 38");
+
+    System.out.println();
+    
+    System.out.println("Please enter character: 0");
+    System.out.println("A is vowel. ASCII value: 48");
 }
 }
