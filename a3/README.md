@@ -32,6 +32,8 @@ Customer Table:
 Petstore Table:
 ![SS2](img/img3.png)
 
+*Screenshot of Skillset 4*
+![Skillset4](img/q4.png)
 
 | *Screenshot of Skillset 4*      | *Screenshot of Skillset 5*: | *Screenshot of Skillset 6*:     |
 | :----:       |    :----:   |          :----: |
