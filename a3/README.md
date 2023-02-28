@@ -37,7 +37,7 @@ Petstore Table:
 
 | *Screenshot of Skillset 4*      | *Screenshot of Skillset 5*: | *Screenshot of Skillset 6*:     |
 | :----:       |    :----:   |          :----: |
-| ![Skillset4](img/q4.png) | ![Skillset5](img/q5.png) | ![Skillset6](img/Q6.png) |
+| ![Skillset4](img/Q5SS.png) | ![Skillset5](img/q5.png) | ![Skillset6](img/Q6.png) |
 
 
 | *Screenshot of Skillset 4*      | *Screenshot of Skillset 5*: | *Screenshot of Skillset 6*:     |
