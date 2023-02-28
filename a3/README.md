@@ -19,7 +19,7 @@
  
 [A3 MWB File](docs/a3.mwb "A3 ERD in .mwb format") 
  
-[A3 SQL File](docs/a3.sql "A3 SQL Script") 
+[A3 SQL File](docs/A3.sql "A3 SQL Script") 
   
 
 Pet Table:
