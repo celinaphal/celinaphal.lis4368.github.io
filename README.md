@@ -30,6 +30,10 @@ Celina Phal
 5. [A5 README.md](a5/README.md "My A5 README.md file")
 
 6. [P1 README.md](p1/README.md "My P1 README.md file")
+    - Develop and test jQuery validations. 
+    - Provide screenshot of failed validation.
+    - Provide screenshot of passed validation.
+    - Skillsets 7-9.
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
 
