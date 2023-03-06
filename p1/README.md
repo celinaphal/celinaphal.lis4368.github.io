@@ -25,13 +25,13 @@ LIS4368: Advanced Web App Development
 
 #### Skillsets: 
 
-*Skillset 7*
+#### Skillset 7:
 ![ss7](img/ss7.png)
 
-*Skillset 8*
+#### Skillset 8:
 ![ss81](img/ss81.png)
 ![ss82](img/ss82.png)
 
-*Skillset 9*
+#### Skillset 9:
 ![ss9](img/ss9.png)
 
