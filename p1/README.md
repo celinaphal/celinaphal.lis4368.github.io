@@ -23,15 +23,7 @@ LIS4368: Advanced Web App Development
 ![Android Studio Installation Screenshot](img/img3.png)
 
 
-#### Skillsets: 
 
-#### Skillset 7:
-![ss7](img/ss7.png)
-
-#### Skillset 8:
-![ss81](img/ss81.png)
-![ss82](img/ss82.png)
-
-#### Skillset 9:
-![ss9](img/ss9.png)
-
+| *Screenshot of Skillset 7*      | *Screenshot of Skillset 8*: | *Screenshot of Skillset 9*:     |
+| :----:       |    :----:   |          :----: |
+| ![Skillset1](img/ss7.png)   | ![Skillset2](img/ss81.png) ![SS2](img/ss82.png| ![Skillset3](img/ss9.png) |
