@@ -27,8 +27,6 @@ Celina Phal
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
     - Compile given class and servlet files. 
-    -
-    - 
     - Screenshots of skillsets 10-12.
     - Extra: Provide server-side validation identical to client-side validation requirements. 
 
