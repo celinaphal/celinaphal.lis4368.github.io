@@ -37,6 +37,7 @@
 			<label>Street:</label> <c:out value="${user.street}" /> <br />
 			<label>City:</label> <c:out value="${user.city}" /> <br />
 			<label>State:</label> <c:out value="${user.state}" /> <br />
+			<label>Zip:</label> <c:out value="${user.zip}" /> <br />
 			<label>Phone:</label> <c:out value="${user.phone}" /> <br />
 			<label>Email:</label> <c:out value="${user.email}" /> <br />
 			<label>Balance:</label> <c:out value="${user.balance}" /> <br />
