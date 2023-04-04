@@ -16,6 +16,8 @@ Passed Validation:
 Failed Validation:
 ![img1](img/img2.png)
 
+Thank You Page:
+![img3](img/img3.png)
 
 | *Screenshot of Skillset 10*      | *Screenshot of Skillset 11*: | *Screenshot of Skillset 12*:     |
 | :----:       |    :----:   |          :----: |
