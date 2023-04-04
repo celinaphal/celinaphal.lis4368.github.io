@@ -5,11 +5,17 @@
 
 #### Assignment 4 Requirements
 
-    - Compile given class and servlet files. 
-    - Screenshots of skillsets 10-12.
-    - Extra: Provide server-side validation identical to client-side validation requirements. 
+1. Compile given class and servlet files. 
+2. Screenshots of skillsets 10-12.
+3. Extra: Provide server-side validation identical to client-side validation requirements. 
 
 #### Assignment Screenshot and Links: 
+Passed Validation:
+![img1](img/img1.png)
+
+Failed Validation:
+![img1](img/img2.png)
+
 
 | *Screenshot of Skillset 10*      | *Screenshot of Skillset 11*: | *Screenshot of Skillset 12*:     |
 | :----:       |    :----:   |          :----: |

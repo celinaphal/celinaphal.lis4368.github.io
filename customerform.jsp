@@ -49,7 +49,7 @@
 					<%-- <c:out value="${anum}" /> --%>
 					<c:choose>
 						<c:when test="${anum == null || anum == '0'}">
-						<%@ include file="/global/header.jsp" %>
+						<%@ include file="/a4/global/header.jsp" %>
 					</div>
 					<p><i>${message}</i></p>
 						</c:when>
@@ -99,89 +99,86 @@
 					
 					<p><a href="customerAdmin?action=display_customers">Display Customers</a></p>
 
-					<% //for debugging, test input (test servlet provided): action="testInput" %>
+					<% //for debugging, test input (test servlet provided): action="customerAdmin" %>
 					<form id="add_customer_form" method="post" class="form-horizontal" action="${pageContext.request.contextPath}/customerAdmin">
-
-						<input type="hidden" name="action" value="add_customer">
 
 						<div class="form-group">
 							<label class="col-sm-4 control-label">FName:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="15" name="fname" value="${customer.fname}" />
+								<input type="text" class="form-control" name="fname" />
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-sm-4 control-label">LName:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="30" name="lname" value="${customer.lname}" />
+								<input type="text" class="form-control" name="lname" />
 							</div>
-						</div>
+						</div>						
 
-						<div class="form-group">
+						<div class ="form-group">
 							<label class="col-sm-4 control-label">Street:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="30" name="street" value="${customer.street}" />
+								<input type="text" class="form-control" name="street" />
 							</div>
 						</div>
 
-						<div class="form-group">
+						<div class ="form-group">
 							<label class="col-sm-4 control-label">City:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="30" name="city" value="${customer.city}" />
+								<input type="text" class="form-control" name="city" />
 							</div>
-						</div>
+						</div> 
 						
 						<div class="form-group">
 							<label class="col-sm-4 control-label">State:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="30" name="state" value="${customer.state}" />
+								<input type="text" class="form-control" name="state" />
 							</div>
 						</div>
 
-						<div class="form-group">
+						<div class ="form-group">
 							<label class="col-sm-4 control-label">Zip:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="30" name="zip" value="${customer.zip}" />
+								<input type="text" class="form-control" name="zip" />
 							</div>
 						</div>
 
-						<div class="form-group">
+						<div class ="form-group">
 							<label class="col-sm-4 control-label">Phone:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="30" name="phone" value="${customer.phone}" />
+								<input type="text" class="form-control" name="phone" />
 							</div>
 						</div>
 
-						<div class="form-group">
+						<div class ="form-group">
 							<label class="col-sm-4 control-label">Email:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="100" name="email" value="${customer.email}" />
+								<input type="text" class="form-control" name="email" />
 							</div>
 						</div>
 						
-						<div class="form-group">
+						<div class ="form-group">
 							<label class="col-sm-4 control-label">Balance:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="100" name="balance" value="${customer.balance}" />
+								<input type="text" class="form-control" name="balance" />
 							</div>
 						</div>
 
-						<div class="form-group">
+						<div class ="form-group">
 							<label class="col-sm-4 control-label">Total Sales:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="100" name="total_sales" value="${customer.totalSales}" />
+								<input type="text" class="form-control" name="total_sales" />
 							</div>
 						</div>
 
 						<div class="form-group">
 							<label class="col-sm-4 control-label">Notes:</label>
 							<div class="col-sm-4">
-								<input type="text" class="form-control" maxlength="100" name="notes" value="${customer.notes}" />
+								<input type="text" class="form-control" maxlength="255" name="notes" />
 							</div>
 						</div>
-
-
+						
 						<div class="form-group">
 							<div class="col-sm-6 col-sm-offset-3">
 								<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Submit</button>
@@ -189,13 +186,12 @@
 						</div>
 					</form>
 
-					<%@ include file="/global/footer.jsp" %>
+	<%@ include file="/global/footer.jsp" %>
 
 	</div> <!-- end starter-template -->
-	</div> <!-- end container -->
+ </div> <!-- end container -->
 
-	<%-- test server-side validation, by not including client-side JavaScript --%>
- 	<%--@ include file="/js/include_js.jsp" --%>		
+ 	<%@ include file="/js/include_js.jsp" %>		
  
 <script type="text/javascript">
 $(document).ready(function() {
@@ -247,7 +243,7 @@ $(document).ready(function() {
 									},									
 							},
 					},
-
+					
 					street: {
 						validators: {
 							notEmpty: {
@@ -387,8 +383,7 @@ $(document).ready(function() {
 						}
 					}
 
-			}															
-					
+			}
 	});
 });
 </script>

@@ -30,9 +30,9 @@
 
 				<h2>Customers</h2>
 
-				<% //for debugging, test input (test servlet provided): action="testInput" %>					
+				<% //for debugging, test input (test servlet provided): action="customerAdmin" %>					
 
-				<form id="add_customer_form" method="post" class="form-horizontal" action="${pageContext.request.contextPath}/customerAdmin">										
+				<form id="add_customer_form" method="post" class="form-horizontal" action="${pageContext.request.contextPath}/"customerAdmin>										
 					<% // goes to info/CustomerServlet.java %>
 					<input type="hidden" name="action" value="add_customer">
 					<input type="submit" value="Add">
