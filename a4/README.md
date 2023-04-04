@@ -5,9 +5,11 @@
 
 #### Assignment 4 Requirements
 
-1. Compile given class and servlet files. 
-2. Screenshots of skillsets 10-12.
-3. Extra: Provide server-side validation identical to client-side validation requirements. 
+1. Compile given class and servlet files.
+2. Provide screenshot of passed validation form.
+3. Provide screenshot of failed validation form.
+4. Screenshot of thanks.jsp page.
+5. Screenshots of skillsets 10-12.
 
 #### Assignment Screenshot and Links: 
 Passed Validation:

@@ -27,8 +27,10 @@ Celina Phal
 
 4. [A4 README.md](a4/README.md "My A4 README.md file")
     - Compile given class and servlet files. 
+    - Provide screenshot of passed validation form.
+    - Provide screenshot of failed validation form.
+    - Screenshot of thanks.jsp page.
     - Screenshots of skillsets 10-12.
-    - Extra: Provide server-side validation identical to client-side validation requirements. 
 
 5. [A5 README.md](a5/README.md "My A5 README.md file")
 
