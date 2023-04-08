@@ -1,6 +1,6 @@
 LIS4368: Advanced Web Applications Development
 
-Mommy
+Celina Phal
 
 ### LIS4368 Requirements:
 
