@@ -96,13 +96,13 @@
 
 							 Use this servlet for testing: ShowParameters								
 					-->
-					
+					<h4 style="color:red; font-weight: light; font-style: italic; ">All text boxes required except notes. </h4>
 					<p><a href="customerAdmin?action=display_customers">Display Customers</a></p>
 
 					<% //for debugging, test input (test servlet provided): action="customerAdmin" %>
 					<form id="add_customer_form" method="post" class="form-horizontal" action="${pageContext.request.contextPath}/customerAdmin">
 						<input type = "hidden" name="action" value="add_customer">
-						
+
 						<div class="form-group">
 							<label class="col-sm-4 control-label">FName:</label>
 							<div class="col-sm-4">
@@ -192,7 +192,6 @@
 	</div> <!-- end starter-template -->
  </div> <!-- end container -->
 
- 	<%@ include file="/js/include_js.jsp" %>		
  
 <script type="text/javascript">
 $(document).ready(function() {

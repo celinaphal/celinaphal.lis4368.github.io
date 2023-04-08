@@ -17,6 +17,8 @@
 	<title>My Online Portfolio</title>
 
 	<%@ include file="/css/include_css.jsp" %>		
+	<body style="background-color:rgb(248, 251, 255);">
+</body>
 
 <!-- Carousel styles -->
 <style type="text/css">
