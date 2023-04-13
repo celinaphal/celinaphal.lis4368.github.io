@@ -26,4 +26,4 @@
 
 | *Screenshot of Skillset 13*      | *Screenshot of Skillset 14*: | *Screenshot of Skillset 15*:     |
 | :----:       |    :----:   |          :----: |
-| ![Skillset1](img/q13.png)   | ![Skillset2](img/q14.png) |  |
+| ![Skillset1](img/q13.png)   |  |  |
