@@ -5,10 +5,10 @@
 
 #### Assignment 5 Requirements
 
-1. Connect database and add server-side validation.
-2. Provide screenshot of invalid data in add_petstore.php file.
-3. Provide screenshot of failed validation error message.
-4. Provide screenshots of valid data and passed validation.
+1. Add onto assignment 4 customerform.jsp to add customers to database. 
+2. Provide screenshot of valid user form entry.
+3. Provide screenshot of passed validation.
+4. Provide screenshots of updated database.
 5. Screenshots of skillsets 13-15.
 
 

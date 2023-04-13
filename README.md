@@ -33,10 +33,11 @@ Celina Phal
     - Screenshots of skillsets 10-12.
 
 5. [A5 README.md](a5/README.md "My A5 README.md file")
-    -
-    -
-    -
-    - Provide screenshots of skillsets 13-15. 
+    - Add onto assignment 4 customerform.jsp to add customers to database. 
+    - Provide screenshot of valid user form entry.
+    - Provide screenshot of passed validation.
+    - Provide screenshots of updated database.
+    - Screenshots of skillsets 13-15.
 
 6. [P1 README.md](p1/README.md "My P1 README.md file")
     - Develop and test jQuery validations. 
