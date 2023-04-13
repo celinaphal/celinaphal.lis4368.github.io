@@ -96,7 +96,6 @@
 
 							 Use this servlet for testing: ShowParameters								
 					-->
-					<h4 style="color:red; font-weight: light; font-style: italic; ">All text boxes required except notes. </h4>
 					<p><a href="customerAdmin?action=display_customers">Display Customers</a></p>
 
 					<% //for debugging, test input (test servlet provided): action="customerAdmin" %>

@@ -7,7 +7,7 @@ import jakarta.servlet.annotation.*;
 
 //import Customer and CustomerDB classes 
 import crud.business.Customer; 
-//import crud.data.CustomerDB;
+import crud.data.CustomerDB;
 //servlet mapping for Serviet 3.0
 //servlet Customer is mapped to the URL pattern /customerAdmin
 //When accessing this servlet, it will return a message.
@@ -87,7 +87,7 @@ if (action == null || action.equals("join"))
 				}
 				else
 				{
-					//CustomerDB.insert(user);
+					CustomerDB.insert(user);
 					message = "";
 					url = "/thanks.jsp";
 				}
