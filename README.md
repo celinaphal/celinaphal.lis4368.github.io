@@ -46,6 +46,12 @@ Celina Phal
     - Skillsets 7-9.
 
 7. [P2 README.md](p2/README.md "My P2 README.md file")
+    - Add onto assignment 5 to complete CRUD functionality. 
+    - Provide screenshot of valid user form entry.
+    - Provide screenshot of passed validation.
+    - Provide screenshot of modified data.
+    - Provide screenshot of delete warning.
+    - Provide screenshots of updated database.
 
 
 

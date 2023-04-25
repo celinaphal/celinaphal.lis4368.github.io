@@ -54,11 +54,67 @@
 								<input type="text" class="form-control" maxlength="30" name="lname" value="${user.lname}" />
 							</div>
 						</div>
+
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Street:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="30" name="street" value="${user.street}" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-4 control-label">City:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="30" name="city" value="${user.city}" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-4 control-label">State:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="2" name="state" value="${user.state}" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Zip:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="5" name="zip" value="${user.zip}" />
+							</div>
+						</div>
 						
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Phone:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="10" name="phone" value="${user.phone}" />
+							</div>
+						</div>
+
 						<div class="form-group">
 							<label class="col-sm-4 control-label">Email:</label>
 							<div class="col-sm-4">
 								<input type="text" class="form-control" maxlength="100" name="email" value="${user.email}" />
+							</div>
+						</div>
+						
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Balance:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="7" name="balance" value="${user.balance}" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Total Sales:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="7" name="total_sales" value="${user.totalSales}" />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Notes:</label>
+							<div class="col-sm-4">
+								<input type="text" class="form-control" maxlength="255" name="notes" value="${user.notes}" />
 							</div>
 						</div>
 						
@@ -105,7 +161,7 @@ $(document).ready(function() {
 										//http://stackoverflow.com/questions/13283470/regex-for-allowing-alphanumeric-and-space
 										//alphanumeric (also, "+" prevents empty strings):
 										regexp: /^[a-zA-Z\-]+$/,
-										message: 'First name can only contain letters and hyphens'
+										message: 'First name can only contain letters and hyphens.'
 									},									
 							},
 					},
@@ -126,7 +182,87 @@ $(document).ready(function() {
 									},									
 							},
 					},
-				
+					
+					street: {
+						validators: {
+							notEmpty: {
+								message: "Street required"
+							},
+							stringLength: {
+								min: 1,
+								max: 30,
+								message: "Street no more than 30 characters"
+							},
+							regexp: {
+								regexp: /^[a-zA-Z0-9,\-\s\.]+$/,
+								message:"Street can only contain letters, numbers, commas, hyphens, or periods"
+							},
+						},
+					},
+
+					city: {
+						validators: {
+							notEmpty: {
+								message: "City no more than 30 characters"
+							},
+							regexp: {
+								regexp: /^[a-zA-Z0-9\-\s]+$/,
+								message: "City can only contain letters, numbers, hyphens, and space character"
+							},
+						},
+					},
+					
+					state: {
+						validators: {
+							notEmpty: {
+								message: "State required"
+							},
+							stringLength: { 
+								min: 2,
+								max: 2,
+								message: "State must be two characters"
+							},
+							regexp: {
+								regexp: /^[a-zA-Z]+$/,
+								message: "State can only contain letters"
+							},
+						},
+					},
+
+					zip: {
+						validators: {
+							notEmpty: {
+								message: "Zip required, only numbers"
+							},
+							stringLength: {
+								min: 5,
+								max: 9, 
+								message: "Zip must be 5, and no more than 9 digits"
+							},
+							regexp: {
+								regexp: /^[0-9]+$/,
+								message: "Zip can only contain numbers"
+							},
+						},
+					},
+
+					phone: {
+						validators: {
+							notEmpty: {
+								message: "Phone required, including area code, only numbers"
+							},
+							stringLength: {
+								min: 10,
+								max: 10,
+								message: "Phone must be 10 digits"
+							},
+							regexp: {
+								regexp: /^[0-9]+$/,
+								message: "Phone can only contain numbers"
+							},
+						},
+					},
+					
 					email: {
 							validators: {
 									notEmpty: {
@@ -152,6 +288,40 @@ $(document).ready(function() {
 									},																		
 							},
 					},
+					balance: {
+						validators: {
+							notEmpty: {
+								message: "Balance is required"
+							},
+							stringLength: {
+								min: 1,
+								max: 7,
+								message: "Balance can be no more than 6 digits, including decimal point"
+							},
+							regexp: {
+								regexp: /^[0-9\.]+$/,
+								message: "Balance can only contain numbers and decimal point"
+							},
+						},
+					},
+
+					total_sales: {
+						validators: {
+							notEmpty: {
+								message:" Total sales is required"
+							},
+							stringLength: {
+								min:1,
+								max:7,
+								message: "Total sales can be no more than 6 digits, including decimal point"
+							},
+							regexp: {
+								regexp: /^[0-9\.]+$/,
+								message: "Total sales can only contain numbers and decimal point"
+							}
+						}
+					}
+
 			}
 	});
 });

@@ -52,14 +52,14 @@ if (action == null || action.equals("join"))
 		//from customers.jsp
 		else if (action.equals("modify_customer"))
 		{
-			//Customer user = CustomerDB.selectCustomer(cid);
-			//session.setAttribute("user",user);
+			Customer user = CustomerDB.selectCustomer(cid);
+			session.setAttribute("user",user);
 			url = "/modify.jsp";
 		}
 		else if (action.equals("display_customers"))
 		{
-			//ArrayList<Customer>users= CustomerDB.selectCustomer();
-			//request.setAttribute("users",users);
+			ArrayList<Customer> users= CustomerDB.selectCustomers();
+			request.setAttribute("users",users);
 			url = "/customers.jsp";
 		}
 		else if (action.equals("add_customer"))
@@ -94,11 +94,11 @@ if (action == null || action.equals("join"))
 				request.setAttribute("user", user);
 				request.setAttribute("message", message);
 			}
-			/* 
-		}
+
 		else if (action.equals("update_customer"))
+		
 		{
-			String firstName_v = request.getParameter("fname");
+				String firstName_v = request.getParameter("fname");
 				String lastName_v = request.getParameter("lname");
 				String street_v = request.getParameter("street");
 				String city_v = request.getParameter("city");
@@ -133,20 +133,19 @@ if (action == null || action.equals("join"))
 						
 						CustomerDB.update(user);
 
-						ArrayList<Customer>users = CustomerDB.selectCustomers();
+						ArrayList<Customer> users = CustomerDB.selectCustomers();
 						request.setAttribute("users", users);
 						url = "/customers.jsp";
 				}
 		}
-		*/
 		else if (action.equals("delete_customer"))
 		{
-			//Customer user = CustomerDB.selectCustomer(cid);
+			Customer user = CustomerDB.selectCustomer(cid);
 
-			//CustomerDB.delete(user);
+			CustomerDB.delete(user);
 
-			//ArrayList<Customer>users=CustomerDB.selectCustomers();
-			//request.setAttribute("users", users);
+			ArrayList<Customer> users=CustomerDB.selectCustomers();
+			request.setAttribute("users", users);
 
 			url = "/customers.jsp";
 		}
