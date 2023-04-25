@@ -63,7 +63,7 @@ public class CustomerDB
         + "cus_email = ?, "
         + "cus_balance = ?, "
         + "cus_total_sales = ?, "
-        + "cus_notes = ?, "
+        + "cus_notes = ? "
         + "WHERE cus_id = ?";
 
         try
@@ -80,6 +80,7 @@ public class CustomerDB
             ps.setString(9, customer.getBalance());
             ps.setString(10, customer.getTotalSales());
             ps.setString(11, customer.getNotes());
+            ps.setString(12, customer.getId());
 
             return ps.executeUpdate();
         }

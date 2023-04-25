@@ -19,6 +19,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 {
 
 HttpSession session = request.getSession();
+
 String url = "/index.jsp";
 String message = ""; 
 String action = null;
@@ -116,9 +117,9 @@ if (action == null || action.equals("join"))
 				}
 				else
 				{
-					Customer user = (Customer) session.getAttribute("user");
+					Customer user = (Customer)session.getAttribute("user");
 
-					user.setId(cid); //cid retrieved from request.getParameter(action);
+						user.setId(cid); //cid retrieved from request.getParameter(action);
 						user.setFname(firstName_v);
 						user.setLname(lastName_v);
 						user.setStreet(street_v);

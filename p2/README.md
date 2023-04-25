@@ -25,7 +25,7 @@
 
 | *Modify Form (modify.jsp)*      | *Modified Data (customers.jsp)*: | 
 | :----:       |    :----:   |
-| ![Skillset1](img/img4.png)   | ![Skillset2](img/img4.png) |
+| ![Skillset1](img/img4.png)   | ![Skillset2](img/img7.png) |
 
 
 | *Delete Warning (customers.jsp)*      | *Associated Database Changes (Select, Insert, Update, Delete*: | 
